@@ -1,3 +1,5 @@
+Sitemap: https://study-area.org.cn/sitemap.txt
+
 User-agent: *
 Allow: /
 Disallow: /assets/
