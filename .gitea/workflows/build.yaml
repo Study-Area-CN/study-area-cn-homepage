@@ -75,4 +75,6 @@ jobs:
           echo "# ls dist"
           ls dist
       - name: Upload
-        run: lftp ${{ secrets.FTP_IP }} -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASSWD }} -e "mirror -R dist dist"
+        run: |
+          mv dist index
+          lftp ${{ secrets.FTP_IP }} -u ${{ secrets.FTP_USER }},${{ secrets.FTP_PASSWD }} -e "mirror -R index index"
