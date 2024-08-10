@@ -87,18 +87,18 @@ mdui-layout-main {
 
 mdui-card {
   margin: 3px;
-  width: 24.5%;
+  width: calc(25% - 6px);
   height: 25%;
 }
 
 @media screen and (max-width: 640px) {
   mdui-card {
-    margin: 0;
-    width: 100%;
+    width: calc(100% - 6px);
   }
 
   mdui-layout-main{
     flex-direction: column;
+    flex-wrap: nowrap;
   }
 }
 </style>
