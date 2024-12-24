@@ -1,7 +1,7 @@
 @import url("https://chinese-fonts-cdn.deno.dev/packages/syst/dist/SourceHanSerifCN/result.css");
 
-* {
-
+*{
+    font-family: "Source Han Serif CN VF";
 }
 
 body {

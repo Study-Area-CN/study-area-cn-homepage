@@ -72,9 +72,3 @@ const sub_projects = [
     </mdui-layout-main>
   </mdui-layout>
 </template>
-
-<style scoped>
-*{
-    font-family: "Source Han Serif CN VF";
-}
-</style>
