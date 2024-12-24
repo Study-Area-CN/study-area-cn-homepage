@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   Run:
-    runs-on: ubuntu-latest
+    runs-on: study_area_cn_runner
     steps:
       - name: Info
         run: echo "OS=${{ runner.os }} NAME=${{ gitea.event_name }} REPO=${{ gitea.repository }} BRANCH=${{ gitea.ref }} ST=${{ job.status }} RUNID=${{ gitea.run_id }}"
